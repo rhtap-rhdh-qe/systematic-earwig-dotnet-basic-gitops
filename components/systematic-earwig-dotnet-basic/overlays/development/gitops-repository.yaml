@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: systematic-earwig-dotnet-basic-gitops-repository
+spec:
+  url: https://github.com/rhtap-rhdh-qe/systematic-earwig-dotnet-basic-gitops
